@@ -1,0 +1,149 @@
+.main {
+    border: none;
+    border-radius: 10px;
+    padding: 30px;
+    padding-left: 30px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    max-width: 700px;
+    background: linear-gradient( 68.6deg, rgb(252, 165, 241) 1.8%, rgb(181, 255, 255) 100.5%);
+    transition-duration: 200ms;
+    height: 450px;
+}
+
+.main:hover {
+    background-color: #cce4ff;
+}
+
+.searchbutton {
+    display: flex;
+    justify-content: space-between;
+}
+
+#city {
+    font-size: 70px;
+    color: #e451d5;
+}
+
+.forecast {
+    position: relative;
+    padding-top: 5px;
+}
+
+.degree {
+    position: absolute;
+    top: 0;
+    right: 18px;
+    font-size: 35px;
+    padding-top: 10px;
+    color: #ffe168;
+}
+
+.search-form {
+    display: flex;
+    width: 650px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.date {
+    position: absolute;
+    top: 2;
+    padding-top: 18px;
+    line-height: 1.5;
+    right: 12rem;
+    font-size: 18px;
+    color: #021122e0;
+}
+
+.buttons {
+    float: right;
+    padding-left: 22px;
+}
+
+.submit,
+.current {
+    padding: 10px 18px;
+    border: 5px;
+    border-radius: 35px;
+    background-color: rgb(243, 121, 251);
+}
+
+.submit:hover {
+    background-color: #e451d5d0;
+}
+
+.current:hover {
+    background-color: #e451d5d0;
+}
+
+.temperature {
+    font-size: 35px;
+    color: #e451d5;
+}
+
+.report {
+    color: black;
+    position: absolute;
+    right: 18px;
+    font-size: 35px;
+    padding-top: 70px;
+}
+
+.icon {
+    font-size: 50px;
+    color: #ffe168;
+}
+
+.container {
+    font-size: 18px;
+    color: #021122e0;
+    position: relative;
+    padding-right: 10px;
+}
+
+.days {
+    padding-top: 65px;
+}
+
+.icons {
+    padding-top: 20px;
+}
+
+.sunny {
+    height: 30px;
+    width: 35px;
+}
+
+.cloudysun {
+    height: 30px;
+    width: 35px;
+}
+
+.rainsun {
+    height: 30px;
+    width: 35px;
+}
+
+.rainy {
+    height: 30px;
+    width: 35px;
+}
+
+.temp {
+    padding-top: 20px;
+}
+
+.footer {
+    text-align: center;
+    font-style: italic;
+    font-family: monospace;
+    color: black;
+    font-size: 16px;
+    padding-top: 0;
+    margin-top: 2px;
+}
