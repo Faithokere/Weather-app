@@ -2,6 +2,7 @@ let now = new Date();
 document.getElementById("date-time").innerHTML = now.toUTCString();
 
 function displayWeatherCondition(response) {
+    console.log(response.data);
     document.querySelector("#city").innerHTML = response.data.name;
     document.querySelector(".temperature").innerHTML = Math.round(
         response.data.main.temp
@@ -11,8 +12,11 @@ function displayWeatherCondition(response) {
     document.querySelector(".wind").innerHTML = `Wind: ${Math.round(
         response.data.wind.speed
     )}km/h`;
-    document.querySelector(".weatherr").innerHTML =
-        response.data.weather[0].main;
+    document.querySelector(".description").innerHTML =
+        response.data.weather[0].description;
+    document.querySelector(".icon").setAttribute = ("src", `https://ssl.gstatic.com/onebox/weather/64/rain_s_cloudy.png`)
+    document.querySelector(".temperatures").innerHTML = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`
+        // document.querySelector(".temperatures").innerHTML = Math.round(response.data.main.temp);
 }
 
 function searchCity(city) {

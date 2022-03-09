@@ -7,9 +7,10 @@
     margin-top: 40px;
     margin-bottom: 10px;
     max-width: 700px;
-    background: linear-gradient( 68.6deg, rgb(252, 165, 241) 1.8%, rgb(181, 255, 255) 100.5%);
+    background: linear-gradient(180.3deg, rgb(235, 224, 224) 5.5%, rgb(101, 136, 168) 90.2%);
+    /* background: linear-gradient( 68.6deg, rgb(252, 165, 241) 1.8%, rgb(181, 255, 255) 100.5%); */
     transition-duration: 200ms;
-    height: 450px;
+    height: 465px;
 }
 
 .main:hover {
@@ -23,7 +24,8 @@
 
 #city {
     font-size: 70px;
-    color: #e451d5;
+    color: #042857;
+    /* color: #e451d5; */
 }
 
 .forecast {
@@ -70,11 +72,14 @@
     padding: 10px 18px;
     border: 5px;
     border-radius: 35px;
-    background-color: rgb(243, 121, 251);
+    color: whitesmoke;
+    background-color: #042857;
+    /* background-color: rgb(243, 121, 251); */
 }
 
 .submit:hover {
-    background-color: #e451d5d0;
+    background-color: #6588A8;
+    /* background-color: #e451d5d0; */
 }
 
 .current:hover {
@@ -83,7 +88,13 @@
 
 .temperature {
     font-size: 35px;
-    color: #e451d5;
+    color: #042857;
+}
+
+.temperatures {
+    font-size: 20px;
+    padding-top: 17px;
+    padding-left: 15px;
 }
 
 .report {
@@ -94,16 +105,20 @@
     padding-top: 70px;
 }
 
+h5::first-letter {
+    text-transform: capitalize;
+}
+
 .icon {
-    font-size: 50px;
-    color: #ffe168;
+    font-size: 45px;
+    /* color: #ffe168; */
 }
 
 .container {
     font-size: 18px;
     color: #021122e0;
     position: relative;
-    padding-right: 10px;
+    padding-right: 20px;
 }
 
 .days {
@@ -114,7 +129,23 @@
     padding-top: 20px;
 }
 
-.sunny {
+.temp {
+    padding-top: 17px;
+    padding-left: 20px;
+}
+
+.footer {
+    text-align: center;
+    font-style: italic;
+    font-family: monospace;
+    color: black;
+    font-size: 16px;
+    padding-top: 0;
+    margin-top: 2px;
+}
+
+
+/* .sunny {
     height: 30px;
     width: 35px;
 }
@@ -136,14 +167,4 @@
 
 .temp {
     padding-top: 20px;
-}
-
-.footer {
-    text-align: center;
-    font-style: italic;
-    font-family: monospace;
-    color: black;
-    font-size: 16px;
-    padding-top: 0;
-    margin-top: 2px;
-}
+} */
