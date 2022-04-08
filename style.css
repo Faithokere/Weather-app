@@ -110,7 +110,7 @@ h5::first-letter {
 }
 
 .icon {
-    font-size: 45px;
+    font-size: 25px;
     /* color: #ffe168; */
 }
 
@@ -127,6 +127,7 @@ h5::first-letter {
 
 .icons {
     padding-top: 20px;
+    font-size: 20px;
 }
 
 .temp {
@@ -144,27 +145,10 @@ h5::first-letter {
     margin-top: 2px;
 }
 
-
-/* .sunny {
-    height: 30px;
-    width: 35px;
+.unit {
+    color: #042857;
 }
 
-.cloudysun {
-    height: 30px;
-    width: 35px;
+.active {
+    color: #021122e0;
 }
-
-.rainsun {
-    height: 30px;
-    width: 35px;
-}
-
-.rainy {
-    height: 30px;
-    width: 35px;
-}
-
-.temp {
-    padding-top: 20px;
-} */
